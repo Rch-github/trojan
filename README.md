@@ -24,6 +24,9 @@ trojan多用户管理部署程序
 
 ###  a. 一键脚本安装
 ```
+搬瓦工服务器先安装依赖
+apt-get update -y && apt-get install curl -y
+
 #安装/更新
 source <(curl -sL https://git.io/trojan-install)
 
